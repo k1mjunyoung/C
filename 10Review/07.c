@@ -8,7 +8,7 @@ int getK(n)
 {
     int k;
 
-    for (k = 1; n / 2 > 2; k++) // 왜 
+    for (k = 1; n / 2 >= 2; k++)
     {
         n /= 2;
     }
