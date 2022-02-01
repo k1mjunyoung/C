@@ -14,7 +14,7 @@
  8. 조건문
  9. [함수](https://github.com/k1mjunyoung/Cprogramming/tree/main/09Function/Recursive)
  10. [복습1](https://github.com/k1mjunyoung/Cprogramming/tree/main/10Review)
- 11. 1차원 배열
+ 11. [1차원 배열](https://github.com/k1mjunyoung/Cprogramming/tree/main/11Array)
  12. 포인터의 이해
  13. 포인터 & 배열
  14. 포인터 & 함수
