@@ -12,10 +12,10 @@ int main(void)
 
     for (int i = 0; word[i] != '\0'; i++)
     {
-        len = i;
+        len = i; // 단어 끝 지점 i를 len에 저장
     }
 
-    for (int mark = 0; mark < len; mark++)
+    for (int mark = 0; mark <= len; mark++)
     {
         word[mark] = word[len-mark];
         // if (len = 3)             
