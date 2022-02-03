@@ -1,11 +1,13 @@
-//두 개의 정수를 입력받아서 구구단 출력
 #include <stdio.h>
 
-int main(void){
-    int num = 9;
+int main(void)
+{
+    int num = 1;
+    int * pnum;
 
-    for (int j = 1; j < 10; j++)
-    {
-        printf("%d * %d = %d\n", num, j, num*j);
-    }
+    pnum = &num;
+
+    printf("%d\n", sizeof(*pnum));
+
+    return 0;   
 }
