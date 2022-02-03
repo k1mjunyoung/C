@@ -1,4 +1,4 @@
-# C Language Study Record
+# C Language Study Log
 #### C언어 스터디 기록입니다.
 
 > 교재 : 윤성우의 열혈 C 프로그래밍
