@@ -8,7 +8,7 @@ int main(void)
     
     for (i = 0; i < 3; i++)
     {
-        temp = *front;
+        temp = *front; // temp에 값 저장
         *front = *back;
         *back = temp;
         front += 1;
