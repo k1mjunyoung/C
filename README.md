@@ -19,7 +19,7 @@
  11. [1차원 배열](https://github.com/k1mjunyoung/C/tree/main/11Array)
  12. [포인터의 이해](https://github.com/k1mjunyoung/C/tree/main/12Pointer)
  13. [포인터 & 배열](https://github.com/k1mjunyoung/C/tree/main/13PointerArray)
- 14. 포인터 & 함수
+ 14. [포인터 & 함수](https://github.com/k1mjunyoung/C/tree/main/14PointerFunc)
  15. 복습2
  16. 다차원 배열
  17. 포인터의 포인터
