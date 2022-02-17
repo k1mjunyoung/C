@@ -2,29 +2,23 @@
 
 #include <stdio.h>
 
-void DemToBin(int num)
+void DecToBin(int Dnum)
 {
-    int binaryArr[100] = {0};
-    int temp = num;
+    int binary[16];
+    int len = 0;
 
-    for (int i = 0; (num / 2) > 0; i++)
+    for (int i = 0; Dnum > 0; i++)
     {
-        binaryArr[i] = num % 2;
-        num = num / 2;
+        binary[i] = Dnum % 2;
+        Dnum = Dnum / 2;
 
-        if (num < 2)
-            break;
+        len ++;
     }
 
-    int binaryLen = sizeof(binaryArr[100]) / sizeof(int);
-
-    printf("Binary length is %d\n", binaryLen);
-
     printf("Your number[2] : ");
-
-    for (int i = 0; i < num; i++)
+    for (int j = len - 1; j >= 0; j--)
     {
-        printf("%d", binaryArr[i]);
+        printf("%d", binary[j]);
     }
 
     printf("\n");
@@ -37,7 +31,7 @@ int main(void)
     printf("Enter a number[10] : ");
     scanf("%d", &num);
 
-    DemToBin(num);
+    DecToBin(num);
 
     return 0;
 }
