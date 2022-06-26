@@ -4,6 +4,6 @@
 .DS_Store
 *.dSYM
 contents/
-
+*.json
 
 
