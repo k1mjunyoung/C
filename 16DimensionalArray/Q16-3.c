@@ -6,6 +6,7 @@ int main(void)
 
     int scoreTable[5][5];
 
+    // 학생마다 과목별로 점수입력
     for (int i = 0; i < 4; i++)
     {
         for (int j = 0; j < 4; j++)
@@ -15,7 +16,7 @@ int main(void)
         }
     }
 
-
+    // 학생별 점수합계
     for (int i = 0; i < 4; i++)
     {
         int addStudent = 0;
@@ -28,6 +29,7 @@ int main(void)
         scoreTable[i][4] = addStudent;
     }
 
+    // 과목별 점수합계
     for (int i = 0; i < 4; i++)
     {
         int addScore = 0;
@@ -40,6 +42,7 @@ int main(void)
         scoreTable[4][i] = addScore;
     }
 
+    // 점수의 총합 저장
     int addResult = 0;
 
     for (int i = 0; i < 4; i++)
@@ -49,6 +52,7 @@ int main(void)
 
     scoreTable[4][4] = addResult;
 
+    // 배열 출력
     for (int i = 0; i < 5; i++)
     {
         for (int j = 0; j < 5; j++)
