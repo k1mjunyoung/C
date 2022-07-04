@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int num = 100;
+    int *ptr = &num;
+    int **dptr = &ptr;
+    int ***tptr = &dptr;
+
+    printf("%p\n", ptr);
+    printf("%p\n", dptr);
+    printf("%p\n", tptr);
+
+    printf("%d %d \n", **dptr, ***tptr);
+    return 0;
+}

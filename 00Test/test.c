@@ -2,6 +2,8 @@
 
 int main(void)
 {
-    printf("Hello, World!\n");
+    int arr[5];
+
+    printf("%d\n", sizeof(arr));
     return 0;
 }
