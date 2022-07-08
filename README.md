@@ -23,9 +23,9 @@
  15. [복습2](https://github.com/k1mjunyoung/C/tree/main/15Review2)
  16. [다차원 배열](https://github.com/k1mjunyoung/C/tree/main/16DimensionalArray)
  17. [포인터의 포인터](https://github.com/k1mjunyoung/C/tree/main/17DoublePointer)
- 18. 다차원 배열 & 포인터
- 19. 함수 포인터 & void 포인터
- 20. 복습3
+ 18. [다차원 배열 & 포인터](https://github.com/k1mjunyoung/C/tree/main/18MultiArrayPointer)
+ 19. [함수 포인터 & void 포인터](https://github.com/k1mjunyoung/C/tree/main/19FunctionPointer)
+ 20. [복습3](https://github.com/k1mjunyoung/C/tree/main/20Review3)
  21. 문자와 문자열 관련 함수
  22. 구조체와 사용자 정의 자료형1
  23. 구조체와 사용자 정의 자료형2
