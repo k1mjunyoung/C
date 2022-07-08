@@ -2,19 +2,17 @@
 
 int main(void)
 {
-    int num = 10;
-    int *pnum;
-    pnum = &num;
-    int **dpnum;
-    dpnum = &pnum;
+    int arr[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
 
-    printf("%p\n", &num);
-    printf("%p\n", pnum);
-    printf("%p\n\n", dpnum);
+    int * parr;
 
-    printf("%d\n", *pnum);
-    printf("%d\n", **dpnum);
+    parr = &arr[2][2];
 
+    printf("%d", *(parr+1));
 
     return 0;
 }
