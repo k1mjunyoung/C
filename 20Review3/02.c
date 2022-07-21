@@ -2,69 +2,54 @@
 
 int main(void)
 {
-    int n;
+    unsigned int N;
 
     printf("[N x N 달팽이배열]\n");
-    printf("정수 N 입력 : ");
-    scanf("%d", &n);
+    printf("자연수 N 입력 : ");
+    scanf("%d", &N);
 
-    int arr[n][n];
-    
-    int * ptr;
-    int temp;
+    int arr[N][N];
+    unsigned int num = 1; // 배열에 들어갈 숫자
+    int row = 0, col = 0;
+    int set; // 세트 수(세로, 가로)
+    int cnt; // 반복 수(cnt만큼 칸 이동)
+    int dir = 1; // +,- 방향을 전환하는데 사용하는 변수
 
-    ptr = &arr[0][0];
-
-    for (int t1 = 0; t1 < n; t1++)
+    // 첫시작 독립시행
+    for (col = 0; col < N; col++)
     {
-        *(ptr + t1) = t1 + 1;
-        ptr ++;
-        temp = t1;
-    }
-    
-    ptr += 3;
-
-    for (int t2 = 0; t2 < n-1; t2++)
-    {
-        *(ptr + (4*t2)) = temp + t2 + 1;
-        ptr += 4;
-        temp = t2;
+        arr[row][col] = num;
+        num++;
     }
 
-    ptr = &arr[n][n-1];
+    col--; // col=N이 되는 문제 해결
 
-    for (int t3 = 0; t3 < n-1; t3++)
+    for (set = N-1; set > 0; set--)
     {
-        *(ptr - t3) = temp + t3 + 1;
-        ptr --;
-    }
-    
-    ptr = &arr[n-1][0];
-
-    for (int t4 = 0; t4 < n-2; t4++)
-    {
-        *(ptr - (4*t4)) = temp + t4 + 1;
-    }
-
-    ptr ++;
-
-    for (int t5 = 0; t5 < n-2; t5++)
-    {
-        *(ptr + t5) = temp + t5 + 1;
-        
-    }
-    
-    
-    
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < n; j++)
+        for (cnt = set; cnt > 0; cnt--)
         {
-            printf("%d ", arr[i][j]);
+            row += dir;
+            arr[row][col] = num;
+            num++;
+        }
+        dir *= -1;
+        for (cnt = set; cnt > 0; cnt--)
+        {
+            col += dir;
+            arr[row][col] = num;
+            num++;
+        }   
+    }
+
+    // 완성된 배열 출력
+    for (int i = 0; i < N; i++)
+    {
+        for (int j = 0; j < N; j++)
+        {
+            printf("%4d", arr[i][j]);
         }
         printf("\n");
     }
-
     printf("\n");
 
     return 0;
@@ -75,6 +60,7 @@ int main(void)
  * 0,1
  * 0,2
  * 0,3
+ * ---
  * 1,3
  * 2,3
  * 3,3
@@ -88,4 +74,5 @@ int main(void)
  * 2,2
  * 2,1
  * 
+ * n,m
 **/
