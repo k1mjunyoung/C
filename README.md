@@ -27,8 +27,8 @@
  19. [함수 포인터 & void 포인터](https://github.com/k1mjunyoung/C/tree/main/Ch19_FunctionPointer)
  20. [복습3](https://github.com/k1mjunyoung/C/tree/main/Ch20_Quiz3)
  21. [문자와 문자열 관련 함수](https://github.com/k1mjunyoung/C/tree/main/Ch21_CharString)
- 22. 구조체와 사용자 정의 자료형1
- 23. 구조체와 사용자 정의 자료형2
+ 22. [구조체와 사용자 정의 자료형1](https://github.com/k1mjunyoung/C/tree/main/Ch22_Struct)
+ 23. [구조체와 사용자 정의 자료형2](https://github.com/k1mjunyoung/C/tree/main/Ch23_Struct2)
  24. 파일 입출력
  25. 메모리 관리와 메모리의 동적 할당
  26. 매크로와 선행처리기
