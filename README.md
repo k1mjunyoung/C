@@ -29,7 +29,7 @@
  21. [문자와 문자열 관련 함수](https://github.com/k1mjunyoung/C/tree/main/Ch21_CharString)
  22. [구조체와 사용자 정의 자료형1](https://github.com/k1mjunyoung/C/tree/main/Ch22_Struct)
  23. [구조체와 사용자 정의 자료형2](https://github.com/k1mjunyoung/C/tree/main/Ch23_Struct2)
- 24. [파일 입출력](https://github.com/k1mjunyoung/C/tree/main/Ch23_FileIO)
+ 24. [파일 입출력](https://github.com/k1mjunyoung/C/tree/main/Ch24_FileIO)
  25. 메모리 관리와 메모리의 동적 할당
  26. 매크로와 선행처리기
  27. 파일의 분할과 헤더파일의 디자인
