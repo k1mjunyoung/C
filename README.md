@@ -14,23 +14,23 @@
  6. printf & scanf
  7. 반복문
  8. 조건문
- 9. [함수](https://github.com/k1mjunyoung/C/tree/main/Ch09_Function)
- 10. [복습1](https://github.com/k1mjunyoung/C/tree/main/Ch10_Quiz1)
- 11. [1차원 배열](https://github.com/k1mjunyoung/C/tree/main/Ch11_Array)
- 12. [포인터의 이해](https://github.com/k1mjunyoung/C/tree/main/Ch12_Pointer)
- 13. [포인터 & 배열](https://github.com/k1mjunyoung/C/tree/main/Ch13_PointerArray)
+ 9. [함수](https://github.com/k1mjunyoung/C/tree/main/09Function)
+ 10. [복습1](https://github.com/k1mjunyoung/C/tree/main/10Quiz1)
+ 11. [1차원 배열](https://github.com/k1mjunyoung/C/tree/main/11Array)
+ 12. [포인터의 이해](https://github.com/k1mjunyoung/C/tree/main/12Pointer)
+ 13. [포인터 & 배열](https://github.com/k1mjunyoung/C/tree/main/13PointerArray)
  14. [포인터 & 함수](https://github.com/k1mjunyoung/C/tree/main/Ch14_PointerFunc)
- 15. [복습2](https://github.com/k1mjunyoung/C/tree/main/Ch15_Quiz2)
- 16. [다차원 배열](https://github.com/k1mjunyoung/C/tree/main/Ch16_DimensionalArray)
- 17. [포인터의 포인터](https://github.com/k1mjunyoung/C/tree/main/Ch17_DoublePointer)
- 18. [다차원 배열 & 포인터](https://github.com/k1mjunyoung/C/tree/main/Ch18_MultiArrayPointer)
- 19. [함수 포인터 & void 포인터](https://github.com/k1mjunyoung/C/tree/main/Ch19_FunctionPointer)
- 20. [복습3](https://github.com/k1mjunyoung/C/tree/main/Ch20_Quiz3)
- 21. [문자와 문자열 관련 함수](https://github.com/k1mjunyoung/C/tree/main/Ch21_CharString)
- 22. [구조체와 사용자 정의 자료형1](https://github.com/k1mjunyoung/C/tree/main/Ch22_Struct)
- 23. [구조체와 사용자 정의 자료형2](https://github.com/k1mjunyoung/C/tree/main/Ch23_Struct2)
- 24. [파일 입출력](https://github.com/k1mjunyoung/C/tree/main/Ch24_FileIO)
- 25. 메모리 관리와 메모리의 동적 할당
+ 15. [복습2](https://github.com/k1mjunyoung/C/tree/main/15Quiz2)
+ 16. [다차원 배열](https://github.com/k1mjunyoung/C/tree/main/16DimensionalArray)
+ 17. [포인터의 포인터](https://github.com/k1mjunyoung/C/tree/main/17DoublePointer)
+ 18. [다차원 배열 & 포인터](https://github.com/k1mjunyoung/C/tree/main/18MultiArrayPointer)
+ 19. [함수 포인터 & void 포인터](https://github.com/k1mjunyoung/C/tree/main/19FunctionPointer)
+ 20. [복습3](https://github.com/k1mjunyoung/C/tree/main/20Quiz3)
+ 21. [문자와 문자열 관련 함수](https://github.com/k1mjunyoung/C/tree/main/21CharString)
+ 22. [구조체와 사용자 정의 자료형1](https://github.com/k1mjunyoung/C/tree/main/22Struct)
+ 23. [구조체와 사용자 정의 자료형2](https://github.com/k1mjunyoung/C/tree/main/23Struct2)
+ 24. [파일 입출력](https://github.com/k1mjunyoung/C/tree/main/24FileIO)
+ 25. [메모리 관리와 메모리의 동적 할당](https://github.com/k1mjunyoung/C/tree/main/25Memory)
  26. 매크로와 선행처리기
  27. 파일의 분할과 헤더파일의 디자인
  28. 복습4
