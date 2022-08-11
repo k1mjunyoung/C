@@ -31,8 +31,8 @@
  23. [구조체와 사용자 정의 자료형2](https://github.com/k1mjunyoung/C/tree/main/23Struct2)
  24. [파일 입출력](https://github.com/k1mjunyoung/C/tree/main/24FileIO)
  25. [메모리 관리와 메모리의 동적 할당](https://github.com/k1mjunyoung/C/tree/main/25Memory)
- 26. 매크로와 선행처리기
- 27. 파일의 분할과 헤더파일의 디자인
+ 26. [매크로와 선행처리기](https://github.com/k1mjunyoung/C/tree/main/26Macro)
+ 27. [파일의 분할과 헤더파일의 디자인](https://github.com/k1mjunyoung/C/tree/main/27Header)
  28. 복습4
 ***
-*Last updated at 2022.08.04*
+*Last updated at 2022.08.11*
